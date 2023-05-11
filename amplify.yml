@@ -3,10 +3,10 @@ frontend:
   phases:
     preBuild:
       commands:
-        - npm install
+        - echo "No PreBuild command"
     build:
       commands:
-        - echo "Build command is empty"
+        - echo "No Build command"
   artifacts:
     baseDirectory: /
     files:
