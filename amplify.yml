@@ -3,11 +3,14 @@ frontend:
   phases:
     preBuild:
       commands:
+        - npm install
     build:
       commands:
+        - echo "Build command is empty"
   artifacts:
-    baseDirectory: POCamplify/dist
+    baseDirectory: /
     files:
-      - '**/*'
+      - index.html
   cache:
-    paths: []
+    paths:
+      - node_modules/**/*
