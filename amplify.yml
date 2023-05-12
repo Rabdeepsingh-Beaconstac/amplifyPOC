@@ -3,10 +3,10 @@ frontend:
   phases:
     preBuild:
       commands:
-        - echo "No PreBuild command"
+        - echo "New No PreBuild command"
     build:
       commands:
-        - echo "No Build command"
+        - echo "New No Build command"
   artifacts:
     baseDirectory: /
     files:
