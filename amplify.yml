@@ -6,7 +6,7 @@ frontend:
         - echo "No PreBuild command"
     build:
       commands:
-        - echo "No Build command"
+        - echo "2 No Build command"
   artifacts:
     baseDirectory: /
     files:
