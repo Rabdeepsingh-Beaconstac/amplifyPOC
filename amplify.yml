@@ -3,7 +3,7 @@ frontend:
   phases:
     preBuild:
       commands:
-        - echo "No PreBuild command"
+        - echo "1 No PreBuild command"
     build:
       commands:
         - echo "2 No Build command"
