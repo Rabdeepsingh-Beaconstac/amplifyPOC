@@ -8,7 +8,7 @@ frontend:
       commands:
         - echo "New No Build command"
   artifacts:
-    baseDirectory: /
+    baseDirectory: /dist
     files:
       - index.html
   cache:
