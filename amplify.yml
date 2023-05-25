@@ -8,10 +8,11 @@ frontend:
     build:
       commands:
         - echo "2 No Build command"
+        - node test.js
   artifacts:
     baseDirectory: /
     files:
-      - index.html
+      - '**/*'
   cache:
     paths:
       - node_modules/**/*
