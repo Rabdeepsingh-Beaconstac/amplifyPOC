@@ -10,7 +10,7 @@
     <h2>Hello Amplify Test</h2>
 </body>
 <script>
-     const myVariable = <%= FRONTEND_PASSWORD %>;
+     const myVariable = <%= process.env.FRONTEND_PASSWORD %>;
     console.log(myVariable);
 </script>
 </html>
