@@ -10,7 +10,7 @@ frontend:
         - echo "2 No Build command"
         - node test.js
   artifacts:
-    baseDirectory: /
+    baseDirectory: webroot
     files:
       - '**/*'
   cache:

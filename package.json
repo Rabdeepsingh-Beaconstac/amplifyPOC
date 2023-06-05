@@ -1,5 +1,19 @@
 {
   "dependencies": {
-    "dotenv": "^16.0.3"
-  }
+    "dotenv": "^16.0.3",
+    "gulp-install": "^1.1.0",
+    "gulp-nunjucks-render": "^2.2.3"
+  },
+  "name": "clear",
+  "version": "1.0.0",
+  "main": ":qw",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
