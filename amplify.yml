@@ -8,7 +8,6 @@ frontend:
     build:
       commands:
         - echo "2 No Build command"
-        - node test.js
   artifacts:
     baseDirectory: webroot
     files:
