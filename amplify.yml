@@ -9,7 +9,7 @@ frontend:
       commands:
         - echo "2 No Build command"
   artifacts:
-    baseDirectory: ../webroot
+    baseDirectory: webroot
     files:
       - '**/*'
   cache:
