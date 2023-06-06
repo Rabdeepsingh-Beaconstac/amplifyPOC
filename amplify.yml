@@ -5,6 +5,7 @@ frontend:
       commands:
         - echo "1 No PreBuild command"
         - echo ${FRONTEND_PASSWORD}
+        - 
     build:
       commands:
         - echo "2 No Build command"
