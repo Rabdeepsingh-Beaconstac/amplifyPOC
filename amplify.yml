@@ -3,14 +3,16 @@ frontend:
   phases:
     preBuild:
       commands:
-        - echo "New No PreBuild command"
+        - echo "1 No PreBuild command"
+        - echo ${FRONTEND_PASSWORD}
+        - 
     build:
       commands:
-        - echo "MAster New No Build command"
+        - echo "2 No Build command"
   artifacts:
-    baseDirectory: /
+    baseDirectory: webroot
     files:
-      - index.html
+      - '**/*'
   cache:
     paths:
       - node_modules/**/*
