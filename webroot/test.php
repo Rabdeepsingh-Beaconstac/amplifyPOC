@@ -7,13 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h2>Hello Amplify Test</h2>
-    <h2>Hello Amplify Test 2</h2>
-    <a href="/b">link</a>
-    <a href="/a">link</a>
+    <h1>PHP File its hello</h1>
 </body>
-<script>
-     const myVariable = <%= process.env.FRONTEND_PASSWORD %>;
-    console.log(myVariable);
-</script>
 </html>
