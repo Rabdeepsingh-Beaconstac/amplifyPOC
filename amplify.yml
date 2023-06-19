@@ -4,6 +4,7 @@ frontend:
     preBuild:
       commands:
         - echo "1 No PreBuild command"
+        - echo "NEW AMPLIFY YML"
         - echo ${FRONTEND_PASSWORD}
     build:
       commands:
